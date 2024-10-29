@@ -6,7 +6,7 @@
 /*   By: macbookair <macbookair@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 19:20:39 by macbookair        #+#    #+#             */
-/*   Updated: 2024/10/25 22:50:50 by macbookair       ###   ########.fr       */
+/*   Updated: 2024/10/28 23:14:59 by macbookair       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int ft_strncmp(const char *s1, const char *s2, size_t n)
     }
     return (0);
 }
-
+/*
 int main()
 {
     char iman[] = "iman";
@@ -32,3 +32,4 @@ int main()
     printf("%d\n",ft_strncmp(iman,iqor,1));
     printf("%d",strncmp(iman,iqor,1));
 }
+*/

@@ -6,7 +6,7 @@
 /*   By: macbookair <macbookair@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 22:27:40 by macbookair        #+#    #+#             */
-/*   Updated: 2024/10/26 11:17:45 by macbookair       ###   ########.fr       */
+/*   Updated: 2024/10/27 18:51:20 by macbookair       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,13 @@ void * ft_memcpy(void * dst, const void * src, size_t n)
     
     return dst;
 }
-
+//  int main()
+//  {
+//     char str[] = "anan";
+//     ft_memcpy(str+2, str+2, 2);
+//     printf("%s",str);
+    
+//  }
 
 
 

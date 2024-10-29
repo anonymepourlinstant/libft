@@ -6,13 +6,13 @@
 /*   By: macbookair <macbookair@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 19:13:11 by macbookair        #+#    #+#             */
-/*   Updated: 2024/10/24 22:13:21 by macbookair       ###   ########.fr       */
+/*   Updated: 2024/10/27 21:19:43 by macbookair       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int ft_isdigit(int c)
 {
-	if(c > '0' && c < '9')
+	if(c >= '0' && c <= '9')
 		return 1;
 	return 0;
 }
